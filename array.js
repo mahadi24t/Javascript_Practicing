@@ -20,3 +20,19 @@ console.log(experience[1])
 console.log(experience[2])
 console.log(experience[0])
 
+let cards = [7,4];
+console.log(cards);
+cards.push(1);
+console.log(cards);
+
+let messages = [
+    "Hey, how's it going?",        
+    "I'm great, thank you! How about you?",
+    "All good. Been working on my portfolio lately."
+]
+
+let newMessage = "Same here!"
+
+messages.push(newMessage);
+
+console.log(messages);
