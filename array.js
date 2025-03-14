@@ -36,3 +36,15 @@ let newMessage = "Same here!"
 messages.push(newMessage);
 
 console.log(messages);
+
+for ( let count = 10;  count < 21;  count += 1 )  {
+    
+    console.log(count)
+
+}
+for(let i=10 ; i<=100;i++){
+    
+    console.log(i)
+}
+
+
