@@ -74,7 +74,7 @@ else{
 
 // Check if the person is elegible for a birthday card from the King! (100)
 
-let age = 100
+//let age = 100
 
 // if less than 100    -> "Not elegible"
 // else if exactly 100 -> "Here is your birthday card from the King!"
@@ -89,4 +89,13 @@ else if (age === 100) {
 }
 else{
     console.log("Not elegible, you have already gotten one");
+}
+
+let sentence = ["Hello ", "my ", "name ", "is ", "Mahadi!"] 
+let greetingEl = document.getElementById("greeting-el")
+
+// Render the sentence in the greetingEl paragraph using a for loop and .textContent
+
+for (let i = 0; i < sentence.length; i++) {
+    greetingEl.textContent += sentence[i]
 }
