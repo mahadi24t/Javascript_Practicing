@@ -11,8 +11,10 @@ const imgs = [
 const container = document.getElementById("container")
 
 function renderImages(){
+    let renderDom = "";
     for(let i=0;i<imgs.length;i++){
-        container.innerHTML += `<img class="team-img" src="${imgs[i]}">`
+        renderDom += `<img alt="Employee in the company" class="team-img" src="${imgs[i]}">`
     }
+    container.innerHTML = renderDom;
 }
 renderImages()
