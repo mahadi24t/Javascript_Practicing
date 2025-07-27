@@ -1,10 +1,15 @@
-if ( age < 100) {
-    console.log("Not elegible");
-}
-else if (age === 100) {
-    console.log("Here is your birthday card from the King!");
+//.                parameters
+// function greetUser(greeting, name) { 
+//     welcomeEl.textContent = `${greeting}, ${name} 👋`
+// }
 
-}
-else{
-    console.log("Not elegible, you have already gotten one");
-}
+// //.        arguments
+// let hi = "Howdy"
+// greetUser(hi, "James")
+
+
+// function add(num1, num2) {
+//     return num1 + num2
+// }
+
+// add(3, 4)
